@@ -61,28 +61,28 @@
                 android:text="@string/TeamB" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/team_b_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/number" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/point_three_button_b"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/threepoint" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/point_two_button_b"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/twoPoints" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/point_free_throw_button_b"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/freeThrow" />
         </LinearLayout>
     </LinearLayout>
 
