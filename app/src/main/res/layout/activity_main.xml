@@ -21,8 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_weight="1"
-            >
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/team_a_name"
@@ -45,21 +44,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/threepoint"
-                android:layout_margin="8dp"/>
+                android:layout_margin="8dp"
+                android:onClick="pointThreeA"/>
 
             <Button
                 android:id="@+id/point_two_button_a"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/twoPoints"
-                android:layout_margin="8dp"/>
+                android:layout_margin="8dp"
+                android:onClick="pointTwoA"/>
 
             <Button
                 android:id="@+id/point_free_throw_button_a"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/freeThrow"
-                android:layout_margin="8dp"/>
+                android:layout_margin="8dp"
+                android:onClick="freeThrowA"/>
         </LinearLayout>
 
         <LinearLayout
@@ -89,21 +91,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/threepoint"
-                android:layout_margin="8dp"/>
+                android:layout_margin="8dp"
+                android:onClick="pointThreeB"/>
 
             <Button
                 android:id="@+id/point_two_button_b"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/twoPoints"
-                android:layout_margin="8dp"/>
+                android:layout_margin="8dp"
+                android:onClick="pointTwoB"/>
 
             <Button
                 android:id="@+id/point_free_throw_button_b"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/freeThrow"
-                android:layout_margin="8dp"/>
+                android:layout_margin="8dp"
+                android:onClick="freeThrowB"/>
         </LinearLayout>
     </LinearLayout>
 

@@ -25,8 +25,18 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
+    public void displayForTeamB( int score) {
+        TextView scoreView = (TextView) findViewById(R.id.team_b_score);
+        scoreView.setText(String.valueOf(score));
+    }
 
     public void pointThreeA(View view){ setScoreA(getScoreA()+3); displayForTeamA(scoreA);}
     public void pointTwoA(View view) { setScoreA(getScoreA()+2); displayForTeamA(scoreA);}
     public void freeThrowA(View view) { setScoreA(getScoreA()+1); displayForTeamA(scoreA);}
+
+    public void pointThreeB (View view) { setScoreB(getScoreB()+3); displayForTeamB(scoreB);}
+    public void pointTwoB (View view) { setScoreB(getScoreB()+2); displayForTeamB(scoreB);}
+    public void freeThrowB(View view) { setScoreB(getScoreB()+1); displayForTeamB(scoreB);}
+
+
 }
