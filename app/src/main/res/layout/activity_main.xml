@@ -31,19 +31,19 @@
                 android:text="@string/number" />
 
             <Button
-                android:id="@+id/point_three_button"
+                android:id="@+id/point_three_button_a"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/threepoint" />
 
             <Button
-                android:id="@+id/point_two_button"
+                android:id="@+id/point_two_button_a"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/twoPoints" />
 
             <Button
-                android:id="@+id/point_free_throw_button"
+                android:id="@+id/point_free_throw_button_a"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/freeThrow" />
@@ -52,7 +52,38 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/team_b_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/TeamB" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
