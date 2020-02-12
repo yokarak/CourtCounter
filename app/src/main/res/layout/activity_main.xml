@@ -35,9 +35,9 @@
                 android:id="@+id/team_a_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/number"
                 android:gravity="center"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:text="@string/zero" />
 
             <Button
                 android:id="@+id/point_three_button_a"
@@ -82,9 +82,9 @@
                 android:id="@+id/team_b_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/number"
                 android:gravity="center"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:text="@string/zeroA" />
 
             <Button
                 android:id="@+id/point_three_button_b"
