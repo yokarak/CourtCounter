@@ -8,4 +8,5 @@
     <string name="number">number</string>
     <string name="zero">0</string>
     <string name="zeroA">0</string>
+    <string name="reset">Reset</string>
 </resources>

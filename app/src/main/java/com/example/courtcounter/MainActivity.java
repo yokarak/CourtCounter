@@ -38,5 +38,5 @@ public class MainActivity extends AppCompatActivity {
     public void pointTwoB (View view) { setScoreB(getScoreB()+2); displayForTeamB(scoreB);}
     public void freeThrowB(View view) { setScoreB(getScoreB()+1); displayForTeamB(scoreB);}
 
-
+    public void reset(View view) { setScoreB(0); setScoreA(0); displayForTeamB(scoreB); displayForTeamA(scoreA);}
 }
